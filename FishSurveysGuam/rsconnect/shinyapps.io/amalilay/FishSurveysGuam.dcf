@@ -1,0 +1,13 @@
+name: FishSurveysGuam
+title: FishSurveysGuam
+username: amalilay
+account: amalilay
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16196795
+bundleId: 11263642
+url: https://amalilay.shinyapps.io/FishSurveysGuam/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CRCP_Reef_Fish_Surveys_Hawaii.csv|Data|gu_mpa
