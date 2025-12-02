@@ -52,6 +52,7 @@ NOAA NCCOS mapped the coral reef habitats of Guam by visual interpretation and m
 # Manipulated Data Dictionary
 
 ## 1. guamFS
+NCRMP survey data manipulated for the interactive leaflet from *CRCP_Reef_Fish_Surveys_CNMI_Guam.csv*.
 
 | Variable | Definition | Data Type |
 |----|----|----|
@@ -67,6 +68,7 @@ NOAA NCCOS mapped the coral reef habitats of Guam by visual interpretation and m
 | `MPA_STATUS` | Indicates whether location of coordinates are within or outside the MPA  | num |
 
 ## 2. MPApointsbarplotdata
+*guamFS* data filtered with the *gu_mpa.shp* to reflect coordinates within and outside of the MPA for the interactive bar plot.
 
 | Variable | Definition | Data Type |
 |----|----|----|
@@ -77,6 +79,7 @@ NOAA NCCOS mapped the coral reef habitats of Guam by visual interpretation and m
 | `OCCURRENCE` | Proportion of total count for species/year | num |
 
 ## 3. speciessize
+*guamFS* data filtered with the *gu_mpa.shp* to reflect coordinates within and outside of the MPA for the interactive line graph.
 
 | Variable | Definition | Data Type |
 |----|----|----|
