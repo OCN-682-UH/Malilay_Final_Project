@@ -1,0 +1,735 @@
+Metadata: 
+  File_Identifier: 
+    gu_comp_all_mpa
+  Language: 
+    gmd:LanguageCode: 
+      eng
+  Character_Set: 
+    Character_Set_Code: 
+      UTF8
+  Hierarchy_Level: 
+    Scope_Code: 
+      dataset
+  Hierarchy_Level: 
+    Scope_Code: 
+      service
+  Metadata_Author: 
+    Responsible_Party: 
+      Individual_Name: 
+        Maria Kottermair
+      Organisation_Name: 
+        University of Guam (UOG)
+      Contact_Information: 
+        Contact: 
+          Address: 
+            Address: 
+              Electronic_Mail_Address: 
+                mariakottermair@uguamlive.uog.edu
+          Online_Resource: 
+            Online_Resource: 
+              Linkage: 
+                URL: 
+                  https://weri.uog.edu
+              Protocol: 
+                http
+              Application_Profile: 
+                web browser
+              Name: 
+              Description: 
+              Function: 
+                OnLine_Function_Code: 
+                  information
+      Role: 
+        Role_Code: 
+          pointOfContact
+  Date_Stamp: 
+    Date: 
+      2025-07-29
+  Metadata_Standard_Name: 
+    ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for 
+    imagery and gridded data
+  Metadata_Standard_Version: 
+    ISO 19115-2:2009(E)
+  Spatial_Representation_Information: 
+    Grid_Spatial_Representation: 
+      Number_Of_Dimensions: 
+        Integer: 
+          2
+      Axis_Dimension_Properties: 
+        Dimension: 
+          Dimension_Name: 
+            Dimension_Name_Type_Code: 
+              column
+          Dimension_Size: 
+      Axis_Dimension_Properties: 
+        Dimension: 
+          Dimension_Name: 
+            Dimension_Name_Type_Code: 
+              row
+          Dimension_Size: 
+      Cell_Geometry: 
+        Cell_Geometry_Code: 
+          area
+      Transformation_Parameter_Availability: 
+  Identification_Information: 
+    Data_Identification: 
+      Citation: 
+        Citation: 
+          Title: 
+            Marine Protected Areas - Guam
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  creation
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  issued
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  revision
+          Identifier: 
+            Identifier: 
+              Authority: 
+                Citation: 
+                  Title: 
+                    org.pacioos
+                  Date: 
+              Code: 
+                gu_comp_all_mpa
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Individual_Name: 
+                Maria Kottermair
+              Organisation_Name: 
+                University of Guam (UOG)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        mariakottermair@uguamlive.uog.edu
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          https://weri.uog.edu
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  resourceProvider
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Organisation_Name: 
+                Pacific Islands Ocean Observing System (PacIOOS)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        info@pacioos.org
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          http://pacioos.org
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  publisher
+      Abstract: 
+        Marine Protected Areas (MPAs) of Guam, including National Parks, 
+        National Marine Sanctuaries, National Wildlife Refuges, ecological 
+        reserves, and Territorial Seashore Parks. Compiled from multiple 
+        sources, including the National Park Service (NPS), National Marine 
+        Sanctuaries (NMS), Fish and Wildlife Service (FWS), World Database of 
+        Protected Areas (WDPA), Guam Bureau of Statistics and Plans (BSP), and 
+        the Guam Coastal Management Program (GCMP). For use in planning 
+        purposes only, not for use in litigation.
+      Purpose: 
+        PacIOOS provides timely, reliable, and accurate ocean information to 
+        support a safe, clean, productive ocean and resilient coastal zone in 
+        the U.S. Pacific Islands region.
+      Credit: 
+        The Pacific Islands Ocean Observing System (PacIOOS) is funded through 
+        the National Oceanic and Atmospheric Administration (NOAA) as a 
+        Regional Association within the U.S. Integrated Ocean Observing System 
+        (IOOS). PacIOOS is coordinated by the University of Hawaii School of 
+        Ocean and Earth Science and Technology (SOEST).
+      Point_Of_Contact: 
+        Responsible_Party: 
+          Individual_Name: 
+            Maria Kottermair
+          Organisation_Name: 
+            University of Guam (UOG)
+          Contact_Information: 
+            Contact: 
+              Address: 
+                Address: 
+                  Electronic_Mail_Address: 
+                    mariakottermair@uguamlive.uog.edu
+              Online_Resource: 
+                Online_Resource: 
+                  Linkage: 
+                    URL: 
+                      https://weri.uog.edu
+                  Protocol: 
+                    http
+                  Application_Profile: 
+                    web browser
+                  Name: 
+                  Description: 
+                  Function: 
+                    OnLine_Function_Code: 
+                      information
+          Role: 
+            Role_Code: 
+              pointOfContact
+      Graphic_Overview: 
+        Browse_Graphic: 
+          File_Name: 
+            http://pacioos.org/metadata/browse/gu_comp_all_mpa.png
+          File_Description: 
+            Sample image.
+      Descriptive_Keywords: 
+        Keywords: 
+          Keyword: 
+            Earth Science > Human Dimensions > Boundaries > Administrative 
+            Divisions
+          Keyword: 
+            Earth Science > Human Dimensions > Environmental 
+            Governance/Management
+          Keyword: 
+            Earth Science > Human Dimensions > Environmental Impacts > 
+            Conservation
+          Type: 
+            Keyword_Type_Code: 
+              theme
+          Thesaurus_Name: 
+            Citation: 
+              Title: 
+                GCMD Science Keywords
+              Date: 
+      Descriptive_Keywords: 
+        Keywords: 
+          Keyword: 
+            Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Guam
+          Type: 
+            Keyword_Type_Code: 
+              place
+          Thesaurus_Name: 
+            Citation: 
+              Title: 
+                GCMD Location Keywords
+              Date: 
+      Descriptive_Keywords: 
+        Keywords: 
+          Keyword: 
+            PacIOOS > Pacific Islands Ocean Observing System
+          Type: 
+            Keyword_Type_Code: 
+              project
+          Thesaurus_Name: 
+            Citation: 
+              Title: 
+                GCMD Project Keywords
+              Date: 
+      Descriptive_Keywords: 
+        Keywords: 
+          Keyword: 
+            PacIOOS > Pacific Islands Ocean Observing System
+          Type: 
+            Keyword_Type_Code: 
+              dataCenter
+          Thesaurus_Name: 
+            Citation: 
+              Title: 
+                GCMD Data Center Keywords
+              Date: 
+      Resource_Constraints: 
+        Legal_Constraints: 
+          Use_Limitation: 
+            The data may be used and redistributed for free but is not 
+            intended for legal use, since it may contain inaccuracies. Neither 
+            the data Contributor, University of Hawaii, PacIOOS, NOAA, State 
+            of Hawaii nor the United States Government, nor any of their 
+            employees or contractors, makes any warranty, express or implied, 
+            including warranties of merchantability and fitness for a 
+            particular purpose, or assumes any legal liability for the 
+            accuracy, completeness, or usefulness, of this information.
+      Aggregation_Information: 
+        Aggregate_Information: 
+          Aggregate_Dataset_Name: 
+            Citation: 
+              Title: 
+                Pacific Islands Ocean Observing System (PacIOOS)
+              Date: 
+          Association_Type: 
+            Association_Type_Code: 
+              largerWorkCitation
+          Initiative_Type: 
+            Initiative_Type_Code: 
+              project
+      Language: 
+        eng
+      Topic_Category: 
+        Topic_Category_Code: 
+          boundaries
+      Topic_Category: 
+        Topic_Category_Code: 
+          environment
+      Topic_Category: 
+        Topic_Category_Code: 
+          oceans
+      Extent: 
+        Extent: 
+          Geographic_Element: 
+            Geographic_Bounding_Box: 
+              Extent_Type_Code: 
+                Boolean: 
+                  1
+              West_Bound_Longitude: 
+                Decimal: 
+                  144.616861239708
+              East_Bound_Longitude: 
+                Decimal: 
+                  144.972159603997
+              South_Bound_Latitude: 
+                Decimal: 
+                  13.2299327938544
+              North_Bound_Latitude: 
+                Decimal: 
+                  13.6612758489999
+  Identification_Information: 
+    Service_Identification: 
+      Citation: 
+        Citation: 
+          Title: 
+            Marine Protected Areas - Guam
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  creation
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  issued
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  revision
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Individual_Name: 
+                Maria Kottermair
+              Organisation_Name: 
+                University of Guam (UOG)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        mariakottermair@uguamlive.uog.edu
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          https://weri.uog.edu
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  resourceProvider
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Organisation_Name: 
+                Pacific Islands Ocean Observing System (PacIOOS)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        info@pacioos.org
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          http://pacioos.org
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  publisher
+      Abstract: 
+        Marine Protected Areas (MPAs) of Guam, including National Parks, 
+        National Marine Sanctuaries, National Wildlife Refuges, ecological 
+        reserves, and Territorial Seashore Parks. Compiled from multiple 
+        sources, including the National Park Service (NPS), National Marine 
+        Sanctuaries (NMS), Fish and Wildlife Service (FWS), World Database of 
+        Protected Areas (WDPA), Guam Bureau of Statistics and Plans (BSP), and 
+        the Guam Coastal Management Program (GCMP). For use in planning 
+        purposes only, not for use in litigation.
+      Service_Type: 
+        Local_Name: 
+          Open Geospatial Consortium Web Feature Service (WFS)
+      Extent: 
+        Extent: 
+          Geographic_Element: 
+            Geographic_Bounding_Box: 
+              Extent_Type_Code: 
+                Boolean: 
+                  1
+              West_Bound_Longitude: 
+                Decimal: 
+                  144.616861239708
+              East_Bound_Longitude: 
+                Decimal: 
+                  144.972159603997
+              South_Bound_Latitude: 
+                Decimal: 
+                  13.2299327938544
+              North_Bound_Latitude: 
+                Decimal: 
+                  13.6612758489999
+      Coupling_Type: 
+        Coupling_Type: 
+          tight
+      Contains_Operations: 
+        Operation_Metadata: 
+          Operation_Name: 
+            GetCapabilities
+          Distributed_Computing_Platforms: 
+          Connect_Point: 
+            Online_Resource: 
+              Linkage: 
+                URL: 
+                  https://geo.pacioos.hawaii.edu/geoserver/PACIOOS/gu_comp_all_mpa/ows?service=WFS&version=1.0.0&request=GetCapabilities
+              Protocol: 
+                OGC:WFS
+              Name: 
+                OGC-WFS
+              Description: 
+                Open Geospatial Consortium Web Feature Service (WFS). 
+                Supported WFS versions include 1.0.0, 1.1.0, and 2.0.0. 
+                Supported output formats include CSV, GeoJSON, GeoJSON-P, GML, 
+                KML, and Shapefile (Zipped).
+              Function: 
+                OnLine_Function_Code: 
+                  download
+      Operates_On: 
+  Identification_Information: 
+    Service_Identification: 
+      Citation: 
+        Citation: 
+          Title: 
+            Marine Protected Areas - Guam
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  creation
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  issued
+          Date: 
+            Date: 
+              Date: 
+                Date: 
+                  2021-11-03
+              Date_Type: 
+                Date_Type_Code: 
+                  revision
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Individual_Name: 
+                Maria Kottermair
+              Organisation_Name: 
+                University of Guam (UOG)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        mariakottermair@uguamlive.uog.edu
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          https://weri.uog.edu
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  resourceProvider
+          Cited_Responsible_Party: 
+            Responsible_Party: 
+              Organisation_Name: 
+                Pacific Islands Ocean Observing System (PacIOOS)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        info@pacioos.org
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          http://pacioos.org
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Name: 
+                      Description: 
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  publisher
+      Abstract: 
+        Marine Protected Areas (MPAs) of Guam, including National Parks, 
+        National Marine Sanctuaries, National Wildlife Refuges, ecological 
+        reserves, and Territorial Seashore Parks. Compiled from multiple 
+        sources, including the National Park Service (NPS), National Marine 
+        Sanctuaries (NMS), Fish and Wildlife Service (FWS), World Database of 
+        Protected Areas (WDPA), Guam Bureau of Statistics and Plans (BSP), and 
+        the Guam Coastal Management Program (GCMP). For use in planning 
+        purposes only, not for use in litigation.
+      Service_Type: 
+        Local_Name: 
+          Open Geospatial Consortium Web Map Service (WMS)
+      Extent: 
+        Extent: 
+          Geographic_Element: 
+            Geographic_Bounding_Box: 
+              Extent_Type_Code: 
+                Boolean: 
+                  1
+              West_Bound_Longitude: 
+                Decimal: 
+                  144.616861239708
+              East_Bound_Longitude: 
+                Decimal: 
+                  144.972159603997
+              South_Bound_Latitude: 
+                Decimal: 
+                  13.2299327938544
+              North_Bound_Latitude: 
+                Decimal: 
+                  13.6612758489999
+      Coupling_Type: 
+        Coupling_Type: 
+          tight
+      Contains_Operations: 
+        Operation_Metadata: 
+          Operation_Name: 
+            GetCapabilities
+          Distributed_Computing_Platforms: 
+          Connect_Point: 
+            Online_Resource: 
+              Linkage: 
+                URL: 
+                  https://geo.pacioos.hawaii.edu/geoserver/PACIOOS/gu_comp_all_mpa/ows?service=WMS&version=1.3.0&request=GetCapabilities
+              Protocol: 
+                OGC:WMS
+              Name: 
+                OGC-WMS
+              Description: 
+                Open Geospatial Consortium Web Map Service (WMS). Supported 
+                WMS versions include 1.1.1 and 1.3.0. Supported map formats 
+                include AtomPub, GeoRSS, GeoTIFF, GIF, JPEG, KML/KMZ, PDF, 
+                PNG, SVG, and TIFF. Supported info formats include GeoJSON, 
+                GeoJSON-P, GML, HTML, and plain text.
+              Function: 
+                OnLine_Function_Code: 
+                  download
+      Operates_On: 
+  Content_Information: 
+    Coverage_Description: 
+      Attribute_Description: 
+      Content_Type: 
+      Dimension: 
+        Band: 
+          Sequence_Identifier: 
+            Member_Name: 
+              Name: 
+                area_km2
+              Attribute_Type: 
+                Type_Name: 
+                  Name: 
+                    double
+          Descriptor: 
+      Dimension: 
+        Band: 
+          Sequence_Identifier: 
+            Member_Name: 
+              Name: 
+                desig
+              Attribute_Type: 
+                Type_Name: 
+                  Name: 
+                    string
+          Descriptor: 
+      Dimension: 
+        Band: 
+          Sequence_Identifier: 
+            Member_Name: 
+              Name: 
+                geom
+              Attribute_Type: 
+                Type_Name: 
+                  Name: 
+                    gml:MultiPolygonPropertyType
+          Descriptor: 
+      Dimension: 
+        Band: 
+          Sequence_Identifier: 
+            Member_Name: 
+              Name: 
+                gov_type
+              Attribute_Type: 
+                Type_Name: 
+                  Name: 
+                    string
+          Descriptor: 
+  Distribution_Information: 
+    Distribution: 
+      Distributor: 
+        Distributor: 
+          Distributor_Contact: 
+            Responsible_Party: 
+              Individual_Name: 
+              Organisation_Name: 
+                Pacific Islands Ocean Observing System (PacIOOS)
+              Contact_Information: 
+                Contact: 
+                  Address: 
+                    Address: 
+                      Electronic_Mail_Address: 
+                        info@pacioos.org
+                  Online_Resource: 
+                    Online_Resource: 
+                      Linkage: 
+                        URL: 
+                          http://pacioos.org
+                      Protocol: 
+                        http
+                      Application_Profile: 
+                        web browser
+                      Function: 
+                        OnLine_Function_Code: 
+                          information
+              Role: 
+                Role_Code: 
+                  publisher
+          Distributor_Transfer_Options: 
+            Digital_Transfer_Options: 
+              Online: 
+                Online_Resource: 
+                  Linkage: 
+                    URL: 
+                      https://geo.pacioos.hawaii.edu/geoserver/
+                  Protocol: 
+                    http
+                  Name: 
+                    GeoServer
+                  Description: 
+                    This URL provides access to this dataset via GeoServer, 
+                    which offers multiple output formats and an OpenLayers 
+                    viewer.
+                  Function: 
+                    OnLine_Function_Code: 
+                      download
+  Data_Quality_Information: 
+    Data_Quality: 
+      Scope: 
+        Scope: 
+          Hierarchy_Level: 
+            Scope_Code: 
+              dataset
+      Lineage: 
+        Lineage: 
+          Statement: 
+            2021-11-03T00:00:00Z OGC web services (WMS and WFS) enabled by 
+            PacIOOS via GeoServer. Original data from source provider may have 
+            been reformatted, reprojected, or adjusted in other ways to 
+            optimize these capabilities.
+  Metadata_Maintenance: 
+    Maintenance_Information: 
+      Maintenance_And_Update_Frequency: 
+      Maintenance_Note: 
+        This record was translated and enhanced from GeoServer OGC Web 
+        Services (OWS) using PacIOOS software.
+  

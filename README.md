@@ -48,3 +48,41 @@ NOAA NCCOS mapped the coral reef habitats of Guam by visual interpretation and m
 | `D_STRUCT` | Detailed structure of benthic habitat (e.g., Aggregate Reef, Sand ) |
 | `geometry` | spatial features containing polygons |
 | `POLYGONID` | Unique identifier for a polygon |
+
+# Manipulated Data Dictionary
+
+# 1. guamFS
+
+| Variable | Definition |
+|----|----|
+| `latitude` | Site latitude in decimal degrees |
+| `longitude` | Site longitude in decimal degrees |
+| `OBJECTID` | Unique identifier for an observation |
+| `ISLAND` | Island or atoll surveyed |
+| `OBS_YEAR` | Year the survey was conducted |
+| `HABITAT_TYPE` | Benthic habitat classification observed (e.g., Aggregate Patch Reef, Spur and Groove) |
+| `COMMON_NAME` | Common name of the Fisheries Management Plan species in the sample |
+| `COUNT` | Number of fish observed for that segment |
+| `SIZE_` | Total length of fish, measured from tip of snout to tip of longer lobe of caudal fin in cm |
+| `MPA_STATUS` | Indicates whether location of coordinates are within or outside the MPA  |
+
+# 2. MPApointsbarplotdata
+
+| Variable | Definition |
+|----|----|
+| `OBS_YEAR` | Year the survey was conducted  |
+| `MPA_STATUS` | Indicates whether location of coordinates are within or outside the MPA  |
+| `COMMON_NAME` | Common name of the species in the sample |
+| `TOTAL_COUNT` | Number of fish observed for that segment grouped by OBS_YEAR, MPA_STATUS, COMMON_NAME |
+| `OCCURRENCE` | Proportion of total count for species/year |
+
+# 3. speciessize
+
+| Variable | Definition |
+|----|----|
+| `COMMON_NAME` | Common name of the species in the sample |
+| `MPA_STATUS` | Indicates whether location of coordinates are within or outside the MPA  |
+| `HABITAT_TYPE` | Benthic habitat classification observed (e.g., Aggregate Patch Reef, Spur and Groove) |
+| `SIZE_` | Total length of fish, measured from tip of snout to tip of longer lobe of caudal fin in cm |
+| `TOTAL_COUNT` | Number of fish observed for that segment grouped by COMMON_NAME, MPA_STATUS, HABITAT_TYPE, SIZE_ |
+| `OCCURRENCE` | Proportion of total count for species |

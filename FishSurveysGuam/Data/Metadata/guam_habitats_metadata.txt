@@ -1,0 +1,349 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Miles Anderson, Analytical Laboratories of Hawaii
+      Publication_Date: 2004
+      Title: Benthic Habitats of Guam Derived From IKONOS Imagery, 2001-2003 
+      Edition: version 1.1
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Kailua, Hawaii
+        Publisher: Analytical Laboratories of Hawaii
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program
+          Publication_Date: 2004
+          Title: Benthic Habitats of the Mariana Archipelago Prepared by Visual Interpretation from IKONOS satellite imagery procured by NOAA 
+          Edition: version 1.1
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Silver Spring, MD
+            Publisher: NOAA's Ocean Service, National Centers for Coastal Ocean Science (NCCOS)
+  Description:
+    Abstract:
+      This project is a cooperative effort between the National Ocean Service, National Centers for Coastal Ocean Science, Center for Coastal Monitoring and Assessment, the University of Hawaii, BAE Systems Spectral Solutions and Analytical Laboratories of Hawaii, LLC. The goal of the work was to map the coral reef habitats of American Samoa, Guam and the Common Wealth of the Northern Mariana Islands by visual interpretation and manual delineation of IKONOS satellite imagery.
+
+      A two tiered habitat classification system was tested and implemented in this work.  It integrates geomorphologic reef structure and biological cover into a single scheme and subsets each into detail.  It also includes thirteen zones.  Benthic features were mapped that covered an area of 104 square kilometers of which 32.9 were unconsolidated sediment and 71.6 were coral reef and hard bottom.  Of the coral reef and hard bottom class, 35.6% is colonized by greater than 10% coral cover.
+    Purpose: The National Ocean Service is conducting a map production effort to digitally map biotic resources and coordinate a long-term monitoring program that can detect and predict change in U.S. coral reefs, and their associated habitats and biological communities.
+  Time_Period_of_Content:
+    Time_Period_Information:
+       Range_of_Dates/Times:
+        Beginning_Date: 2003
+        Ending_Date: 2004
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 144.599648
+      East_Bounding_Coordinate: 144.972700
+      North_Bounding_Coordinate: 13.669406
+      South_Bounding_Coordinate: 13.222290
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: coral reef
+      Theme_Keyword: coralline algae
+      Theme_Keyword: habitat
+      Theme_Keyword: reef
+      Theme_Keyword: submerged aquatic vegetation
+      Theme_Keyword: unconsolidated sediments
+      Theme_Keyword: zone
+      Theme_Keyword: structure
+      Theme_Keyword: cover
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: Mariana Islands
+      Place_Keyword: Guam
+  Access_Constraints: None
+  Use_Constraints: Not for navigation
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program
+      Contact_Position: Biogeography Team Leader, Mapping Manager
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1305 East West Highway
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910
+      Contact_Voice_Telephone: 301-713-3028
+      Contact_Facsimile_Telephone: 301-713-4384
+      Contact_Electronic_Mail_Address: tim.battista@noaa.gov
+      Hours_of_Service: 0800 - 1700, Monday to Friday, EST
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.0.0.535
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      A statistically robust field data set was collected to assess the thematic accuracy of the map products.  A random stratified sampling method was implemented to select field sites to conduct this test.   Each site was navigated to using a Trimble Geo Explorer 3 GPS data logger, and positional data was acquired.  A total of 1,113 GPS waypoints were occupied and benthic characterizations conducted for the purpose of accuracy assessment.
+
+      Areas that were obscured by cloud cover or where other environmental conditions such as glint of turbidity prevented visual interpretation of the benthic habitats were assigned an attribute of "unknown".  Field observations that fell in polygons designated "unknown" were not included in the statistical analysis.  During this survey, 5 of the 1,113 field observations were excluded for this reason and 1,108 observations were used in the accuracy assessment.
+
+      A statistical analysis that generated a Tau statistic was preformed.  The Tau statistic for the major classes exceeded 0.85 and for detailed classes exceeded 0.75.  Overall thematic accuracy was established as 98.7% and 92.6% for the major structure and cover classes and 87.8% and 80.9% for the detailed classes respectively for the entire Mariana Archipelago.
+  Logical_Consistency_Report:
+    All mapping was conducted from orthorectified IKONOS satellite imagery provided by NOS prior to map production.   IKONOS satellite imagery was corrected for atmospheric and water column effects, color balanced, pan sharpened and deglinted.  During the digitizing process, image stretches and manipulating image contrast, brightness and color balance were performed in the ArcView Image Analysis Extension to enhance features in the processed imagery.
+
+    GIS topologic quality was established by executing ArcView extension routines that check for: overlapping polygons, multipart polygons, sliver polygons and void polygons.  Additionally checks for adjacent polygons with the same habitat attributes were completed.  All errors were identified and corrected.  This file is believed to be logically consistent.
+  Completeness_Report:
+    NOAA supplied georeferenced imagery to Analytical Laboratories of Hawaii through BAE Systems Spectral Solutions.  Delineation of all habitat boundaries was conducted with the image scale at 1:6,000.  This ensures that the level of detail produced by the photo interpreter is uniform throughout the project.  Also, NOAA has shown from similar mapping efforts in the Caribbean and Florida Keys, that little additional information is gained from having the image at a smaller scale and the labor intensity increased significantly.
+
+    The minimum mapping unit (MMU) for identifying habitats or features was 1 acre.  The software utilized in this project was designed to alert the photo interpreter each time a polygon was drawn smaller than the MMU.  When this occurred the photo interpreter has the choice whether to include the polygon in the data set.  Only in areas where local coral reef managers expressed interest in specific map classes or in Marine Protected Areas were polygons of smaller then the MMU allowed.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: RMS from digitized output was determined using the ESRI RMEer2 extension and shown to be <1m when conducted at 1:6000 scale.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: M.S. Coyne
+          Publication_Date: 2003
+          Title: Classification Scheme for Benthic Habitats of the Pacific
+          Geospatial_Data_Presentation_Form: document
+          Publication_Information:
+            Publication_Place: Silver Spring, MD
+            Publisher: NOAA's Ocean Service, National Centers for Coastal Ocean Science (NCCOS)
+      Type_of_Source_Media: Report
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2003
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Classification Scheme for Benthic Habitats of the Pacific
+      Source_Contribution: This document identified the zone, structure and biological cover types attributed in the data set
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Ken Buja
+          Publication_Date: 2003
+          Title: Coral Reef Digitizing Extension
+          Publication_Information:
+            Publication_Place: Silver Spring, MD
+            Publisher: NOAA's Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS)
+          Online_Linkage: http://biogeo.nos.noaa.gov/products/apps/digitizer/
+      Type_of_Source_Media: computer program
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2003
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Habitat Digitizer
+      Source_Contribution: This ArcView extension was used to digitize and attribute benthic zones, structure and biological cover of this map.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Space Imaging Inc.
+          Publication_Date: 2001-2003
+          Title: IKONOS Satellite Imagery
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Thornton, CO
+            Publisher: Space Imaging Inc.
+          Other_Citation_Details: This imagery was obtained at a 4 m pixel resolution, corrected for water column and atmospheric effects, deglinted and Pan sharpened.
+          Online_Linkage: www.spaceimaging.com
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2001
+            Ending_Date: 2003
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: IKONOS imagery
+      Source_Contribution: Used to identify and digitize benthic habitats for Guam.
+    Process_Step:
+      Process_Description:
+        Benthic habitat maps were digitized by delineating habitat boundaries from georeferenced orthorectified IKONOS satellite imagery loaded into ArcView 3.3 GIS software with the Image Analysis and NOAA Coral Reef Habitat Digitizing extensions both activated.   Digitizing was conducted using heads-up on computer screen methods with the minimum mapping unit (MMU) set to 1 acre and the image scale at 1:6,000.
+
+        All IKONOS imagery was processed by NOS prior to map production.  The imagery was corrected for atmospheric and water column effects, pan sharpened and deglinted.  During the digitizing process, images were stretched and contrast, brightness and color balance were modified using the Arc View Image Analysis Extension to enhance features in the processed imagery.
+
+        A first draft map was completed and features in the imagery where uncertainties existed, due to confusing or difficult to interpret signatures, were identified for future ground validation effort.  An ArcView GIS point theme was generated with points positioned on the features of uncertain habitat type or along transects though gradients between habitat types.  The GIS points were converted to GPS waypoints using Trimble Pathfinder Software and were navigated to in the field using a Trimble GeoExplorer 3 GPS data logger.
+
+        A benthic habitat characterization was conducted at each site by snorkeling, free diving, or where water depth and clarity permitted, by observation from the surface .  GPS data were collected at each location and site ID, depth, habitat type, zone and the method used to make the assessment were recorded.  A second draft of the map was generated incorporating these ground validation data.
+      Process_Date: 2003
+
+      Source_Used_Citation_Abbreviation: C:\DOCUME~1\Owner\LOCALS~1\Temp\xml7F.tmp
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1068
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator
+         UTM_Zone_Number: 55
+         Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.999600
+          Longitude_of_Central_Meridian: 147.000000
+          Latitude_of_Projection_Origin: 0.000000
+          False_Easting: 500000.000000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: guam_draft_map
+      Entity_Type_Definition: Shapefile attribute table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: ESRI
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Value copied from UNIQUID field and used to run adjacency script for QA/QC
+      Attribute_Definition_Source: NOAA mapping QA/QC standard
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Habitat description
+          Codeset_Source: Habitat classification scheme for the Pacific
+    Attribute:
+      Attribute_Label: UNIQUEID
+      Attribute_Definition: 4 digit numerical value representing a unique habitat combination of structure and cover attributes
+      Attribute_Definition_Source: Habitat digitizing extension
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Habitat description
+          Codeset_Source: Habitat classification scheme for the Pacific
+    Attribute:
+      Attribute_Label: POLYGONID
+      Attribute_Definition: Incremental value generated for QA/QC adjacency test
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Incremental numeric field
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 23.621
+          Range_Domain_Maximum: 543808930.37
+          Attribute_Units_of_Measure: NA
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 18.442
+          Range_Domain_Maximum: 343673.659
+          Attribute_Units_of_Measure: NA
+    Attribute: 
+      Attribute_Label: ACRES
+      Attribute_Definition: Area of polygon in acres
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: .006
+          Range_Domain_Maximum: 134375.187
+          Attribute_Units_of_Measure: NA
+    Attribute:
+      Attribute_Label: ISLAND
+      Attribute_Definition: Name of Island
+      Attribute_Definition_Source: Manually assigned string
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Manually assigned character field
+    Attribute:
+      Attribute_Label: M_STRUCT
+      Attribute_Definition: Major reef structure
+      Attribute_Definition_Source: Habitat digitizing extension
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Assigned during digitizing character field
+    Attribute:
+      Attribute_Label: D_STRUCT
+      Attribute_Definition: Detailed structure
+      Attribute_Definition_Source: Habitat digitizing extension
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Assigned during digitizing character field
+    Attribute:
+      Attribute_Label: M_COVER
+      Attribute_Definition: Major biological cover
+      Attribute_Definition_Source: Habitat classification scheme
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Assigned during digitizing
+    Attribute:
+      Attribute_Label: P_COVER
+      Attribute_Definition: Percent biological cover of major cover type
+      Attribute_Definition_Source: Habitat classification scheme
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Assigned during digitizing character field
+    Attribute:
+      Attribute_Label: ZONE
+      Attribute_Definition: Geomorphologic zone
+      Attribute_Definition_Source: Habitat classification scheme
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Assigned during digitizing character field
+    Attribute:
+      Attribute_Label: COVER_TYPE
+      Attribute_Definition: Concatenated field of major cover and percent cover used for legend fill
+      Attribute_Definition_Source: ArcView script
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program
+      Contact_Position: Biogeography Team Leader, Mapping Manager
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1305 East West Highway
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910
+      Contact_Voice_Telephone: 301-713-3028
+      Contact_Facsimile_Telephone: 301-713-4384
+      Contact_Electronic_Mail_Address: tim.battista@noaa.gov
+      Hours_of_Service: 0800 - 1700, Monday to Friday, EST
+  Resource_Description: Downloadable Data
+  Distribution_Liability: The National Oceanic and Atmospheric Administration (NOAA) National Centers for Coastal Ocean Science (NCCOS) produced this data CD-ROM. NCCOS Biogeography Program does not guarantee the accuracy of the geographic features or attributes. Please see the metadata records for each data set for complete information on the source, limitations, and proper use.
+
+  Custom_Order_Process: Contact NOAA for distribution options (see Distributor).
+Metadata_Reference_Information:
+  Metadata_Date: 20040630
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS), Center for Coastal Monitoring and Assessment (CCMA), Biogeography Program    
+      Contact_Position: Biogeography Team Leader, Mapping Manager
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1305 East West Highway
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910
+      Contact_Voice_Telephone: 301-713-3028
+      Contact_Facsimile_Telephone: 301-713-4384
+      Contact_Electronic_Mail_Address: tim.battista@noaa.gov
+      Hours_of_Service: 0800 - 1700, Monday to Friday, EST
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile
+  
